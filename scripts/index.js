@@ -18,22 +18,22 @@ function aboutScroll() {
     aboutEl.scrollIntoView({behavior: "smooth"});
 }
 
-// SKILLS navigation
-const skillsEl = document.getElementById("skills");
-const navSkillsEl = document.getElementById("nav-skills");
+// DESIGN navigation
+const designEl = document.getElementById("design");
+const navDesignEl = document.getElementById("nav-design");
 
-navSkillsEl.addEventListener("click", skillsScroll);
+navDesignEl.addEventListener("click", designScroll);
 
-function skillsScroll() {
-    skillsEl.scrollIntoView({behavior: "smooth"});
+function designScroll() {
+    designEl.scrollIntoView({behavior: "smooth"});
 }
 
-// PROJECTS navigation
-const projectsEl = document.getElementById("projects");
-const navProjectsEl = document.getElementById("nav-projects");
+// PROMO navigation
+const promoEl = document.getElementById("promo");
+const navPromoEl = document.getElementById("nav-promo");
 
-navProjectsEl.addEventListener("click", projectsScroll);
+navPromoEl.addEventListener("click", promoScroll);
 
-function projectsScroll() {
-    projectsEl.scrollIntoView({behavior: "smooth"});
+function promoScroll() {
+    promoEl.scrollIntoView({behavior: "smooth"});
 }
