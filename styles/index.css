@@ -159,7 +159,7 @@ h3 {
     color: var(--color-light);
 }
 
-/* ================================== ABOUT ME SECTION =========== */
+/* ================================== ABOUT ADP SECTION =========== */
 
 .about-container {
     display: flex;
@@ -175,8 +175,8 @@ h3 {
 .profile-pic {
     width: 16rem;
     height: 16rem;
-    border-radius: 8rem;
-    border: solid 9px var(--color-main);
+    border-radius: 2rem;
+    border: solid 8px var(--color-main);
     margin: 40px;
 }
 
@@ -190,15 +190,15 @@ h3 {
 
 .about-text {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     color: #777;
     line-height: 1.5rem;
     padding-right: 20px;
 }
 
-/* ================================== SKILLS SECTION =========== */
+/* ================================== DESIGN SECTION =========== */
 
-.skills-container {
+.design-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -209,7 +209,7 @@ h3 {
     padding-right: 4rem;
 }
 
-.skills-title {
+.design-title {
     font-size: 6rem;
     font-weight: 900;
     color: var(--color-dark);
@@ -217,7 +217,7 @@ h3 {
     padding-bottom: 40px;
 }
 
-.skills-text {
+.design-text {
     font-size: 2rem;
     font-weight: 300;
     color: #FFF;
@@ -225,29 +225,35 @@ h3 {
     padding-bottom: 5px;
 }
 
-.skills-bracket {
+.design-bracket {
     font-size: 48rem;
     color: #ff5c50;
     padding-bottom: 120px;
 }
 
-/* ================================== PROJECTS SECTION =========== */
+/* ================================== PROMOTION SECTION =========== */
 
-#projects {
+#promo {
     min-height: 100vh;
 }
 
-.projects-container {
+.promo-container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
+    align-items: center;
+    background-color: var(--color-main);
+    color: #FFF;
+    height: 770px;  /*100vh;*/
+    padding-right: 4rem;
 }
 
 .card-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.25rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-dark);
+    line-height: 3rem;
+    padding-bottom: 10px;
 }
 
 .card-thumb {    
@@ -260,53 +266,7 @@ h3 {
     background-size: cover;
 }
 
-.thumb-avo {    
-    background-image: url("../images/avoservices.jpg");
-}
-
-.thumb-timesup {    
-    background-image: url("../images/timesup.jpg");
-}
-/* 
-.thumb-ecommerce {    
-    background-image: url("../images/);
-}
-
-.card-thumb-api {    
-    background-image: url("../images/");
-}
-*/
-
-.card-desc {
-    font-size: 0.75rem;
-    text-align: center;
-}
-
-.card-btn {
-    width: 8rem;
-    height: 2rem;
-    font-size: 0.75rem;
-    font-weight: 700;
-    background-color: var(--color-main);
-    color: #FFF;
-    border: none;
-    border-radius: 0.25rem;
-}
-
-.card-btn:hover {
-    width: 8rem;
-    height: 2rem;
-    font-size: 0.75rem;
-    font-weight: 700;
-    background-color: rgb(255, 103, 43);
-    color: #FFF;
-    border: none;
-    border-radius: 0.25rem;
-    transition: 250ms ease-in-out;
-    cursor: pointer;
-}
-
-.project-card {
+.promo-card {
     border-bottom: 2px solid #000;
     display: flex;
     flex-flow: row wrap;
@@ -318,23 +278,31 @@ h3 {
     padding: 10px;
 }
 
-.projects-title {
-    font-size: 4rem;
-    font-weight: 900;
-    color: var(--color-main);
-    line-height: 3rem;
-    padding-bottom: 40px;
-    background-color: #777;
-}
-
-.projects-text {
-    font-size: 2rem;
-    font-weight: 300;
+.promo-title {
+    font-size: 3rem;
+    font-weight: 600;
     color: var(--color-dark);
     line-height: 3rem;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    /*color: var(--color-dark);*/
 }
 
+.promo-text {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #FFF;
+    line-height: 1.5rem;
+    padding-right: 20px;
+}
+
+.list-promo {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.25rem;
+}
 
 /* ================================== FOOTER SECTION =========== */
 
