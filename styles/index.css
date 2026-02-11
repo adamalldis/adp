@@ -201,7 +201,7 @@ h3 {
 .design-container {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background-color: var(--color-main);
     color: #FFF;
@@ -210,18 +210,18 @@ h3 {
 }
 
 .design-title {
-    font-size: 6rem;
-    font-weight: 900;
+    font-size: 4rem;
+    font-weight: 600;
     color: var(--color-dark);
     line-height: 3rem;
     padding-bottom: 40px;
 }
 
 .design-text {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 300;
     color: #FFF;
-    line-height: 3rem;
+    line-height: 1.5rem;
     padding-bottom: 5px;
 }
 
@@ -229,6 +229,15 @@ h3 {
     font-size: 48rem;
     color: #ff5c50;
     padding-bottom: 120px;
+}
+
+.list-design {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--color-dark);
+    list-style-type: none;
+    margin: 0;
+    padding: 0.25rem;
 }
 
 /* ================================== PROMOTION SECTION =========== */
@@ -240,9 +249,9 @@ h3 {
 .promo-container {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    background-color: var(--color-main);
+    background-color: #43494E;
     color: #FFF;
     height: 770px;  /*100vh;*/
     padding-right: 4rem;
@@ -279,12 +288,11 @@ h3 {
 }
 
 .promo-title {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 600;
-    color: var(--color-dark);
+    color: var(--color-main);
     line-height: 3rem;
-    padding-bottom: 10px;
-    /*color: var(--color-dark);*/
+    padding-bottom: 40px;
 }
 
 .promo-text {
@@ -298,7 +306,7 @@ h3 {
 .list-promo {
     font-size: 1.25rem;
     font-weight: 500;
-    color: #333;
+    color: var(--color-main);
     list-style-type: none;
     margin: 0;
     padding: 0.25rem;
