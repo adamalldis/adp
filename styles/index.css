@@ -178,6 +178,7 @@ h3 {
     border-radius: 2rem;
     border: solid 8px var(--color-main);
     margin: 40px;
+    margin-top: 0px;
 }
 
 .about-title {
@@ -207,6 +208,10 @@ h3 {
     color: #FFF;
     height: 100vh;
     padding-right: 4rem;
+        background-image: url("../images/mouse.svg");
+        background-repeat: no-repeat; /* Prevents the image from tiling */
+        background-size: 170px;      /* Scales the image to cover the entire container */
+        background-attachment: scroll; /* Keeps the background fixed when scrolling */
 }
 
 .design-title {
@@ -215,6 +220,7 @@ h3 {
     color: var(--color-dark);
     line-height: 3rem;
     padding-bottom: 40px;
+    padding-left: 170px;
 }
 
 .design-text {
@@ -223,6 +229,7 @@ h3 {
     color: #FFF;
     line-height: 1.5rem;
     padding-bottom: 5px;
+    padding-left: 170px;
 }
 
 .design-bracket {
@@ -253,39 +260,15 @@ h3 {
     align-items: center;
     background-color: #43494E;
     color: #FFF;
-    /*height: 770px;  /*100vh;*/
+    height: 100vh;
     padding-right: 4rem;
+        background-image: url("../images/ballpoint_pen.svg");
+        background-repeat: no-repeat; /* Prevents the image from tiling */
+        background-size: 170px;      /* Scales the image to cover the entire container */
+        background-attachment: scroll; /* Keeps the background fixed when scrolling */
 }
 
-.card-title {
-    font-size: 3rem;
-    font-weight: 600;
-    color: var(--color-dark);
-    line-height: 3rem;
-    padding-bottom: 10px;
-}
 
-.card-thumb {    
-    width: 9rem;
-    height: 9rem;
-    border-radius: 4.5rem;
-    border: solid 3px var(--color-main);
-    background-color: #AAA;
-    background-position: center;
-    background-size: cover;
-}
-
-.promo-card {
-    border-bottom: 2px solid #000;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-    width: 10rem;
-    height: 20rem;
-    margin: 10px;
-    padding: 10px;
-}
 
 .promo-title {
     font-size: 4rem;
@@ -293,6 +276,7 @@ h3 {
     color: var(--color-main);
     line-height: 3rem;
     padding-bottom: 40px;
+    padding-left: 170px;
 }
 
 .promo-text {
@@ -301,6 +285,7 @@ h3 {
     color: #FFF;
     line-height: 1.5rem;
     padding-right: 20px;
+    padding-left: 170px;
 }
 
 .list-promo {
