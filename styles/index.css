@@ -437,41 +437,52 @@ h3 {
         padding: 0 35px;
     }
 
-    .skills-title {
+    .design-title {
         font-size: 3rem;
-        font-weight: 900;
+        font-weight: 800;
         color: var(--color-dark);
         line-height: 3rem;
         padding-bottom: 10px;
     }
     
-    .skills-text {
+    .design-text {
         font-size: 1rem;
-        font-weight: 400;
+        font-weight: 300;
         color: #FFF;
         line-height: 1.5rem;
         padding-bottom: 5px;
     }
-    
-    .skills-bracket {
-        font-size: 24rem;
-        color: #ff5c50;
-        padding-bottom: 50px;
-    }
+
+.promo-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: flex-start;
+    background-color: #43494E;
+    color: #FFF;
+    height: 100vh;
+    padding-right: 4rem;
+        background-image: url("../images/ballpoint_pen.svg");
+        background-repeat: no-repeat; /* Prevents the image from tiling */
+        background-size: 140px;      /* Scales the image to cover the entire container */
+        background-attachment: scroll; /* Keeps the background fixed when scrolling */
 }
 
-    .pro-heading {
-        grid-area: pro-heading;
-        background-color: #FFF;
-        margin: 0;
-        margin-top: 5rem;
-        margin-left: 1rem;
+    .promo-title {
         font-size: 3rem;
-        text-align: center;
-    
+        font-weight: 700;
+        color: var(--color-main);
+        line-height: 3rem;
+        padding-top: 80px;
+        padding-bottom: 10px;
     }
-    .project1 {grid-area: project1;}
-    .project2 {grid-area: project2;}
-    .project3 {grid-area: project3;}
-    .project4 {grid-area: project4;}
-    .project5 {grid-area: project5;}
+    
+    .promo-text {
+        font-size: 1rem;
+        font-weight: 300;
+        color: #FFF;
+        line-height: 1.5rem;
+        padding-bottom: 5px;
+    }
+
+}
