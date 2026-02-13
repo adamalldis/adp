@@ -208,10 +208,10 @@ h3 {
     color: #FFF;
     height: 100vh;
     padding-right: 4rem;
-    background-image: url("../images/mouse.svg");
-    background-repeat: no-repeat; /* Prevents the image from tiling */
-    background-size: 170px;      /* Scales the image to cover the entire container */
-    background-attachment: scroll; /* Keeps the background fixed when scrolling */
+        background-image: url("../images/mouse.svg");
+        background-repeat: no-repeat; /* Prevents the image from tiling */
+        background-size: 170px;      /* Scales the image to cover the entire container */
+        background-attachment: scroll; /* Keeps the background fixed when scrolling */
 }
 
 .design-title {
@@ -262,16 +262,18 @@ h3 {
     color: #FFF;
     height: 100vh;
     padding-right: 4rem;
-    background-image: url("../images/ballpoint_pen.svg");
-    background-repeat: no-repeat; /* Prevents the image from tiling */
-    background-size: 170px;      /* Scales the image to cover the entire container */
-    background-attachment: scroll; /* Keeps the background fixed when scrolling */
+        background-image: url("../images/ballpoint_pen.svg");
+        background-repeat: no-repeat; /* Prevents the image from tiling */
+        background-size: 170px;      /* Scales the image to cover the entire container */
+        background-attachment: scroll; /* Keeps the background fixed when scrolling */
 }
+
+
 
 .promo-title {
     font-size: 4rem;
     font-weight: 600;
-    color: *var(--color-main);
+    color: var(--color-main);
     line-height: 3rem;
     padding-bottom: 40px;
     padding-left: 170px;
@@ -334,7 +336,7 @@ h3 {
 
 /* ================================== MEDIA QUERY =========== */
 
-@media only screen and (max-width: 900px) {  
+@media only screen and (max-width: 900px) {
 
     .container {
         display: flex;
@@ -411,7 +413,7 @@ h3 {
         align-items: center;
         background-color: var(--color-dark);
         color: #FFF;
-        height: 100vh;
+        height: 900px;
         text-align: center;
         padding: 0;
     }
@@ -439,24 +441,24 @@ h3 {
         display: flex;
         flex-flow: row nowrap;
         justify-content: left;
-        align-items: center;
+        align-items: flex-start;
         background-color: var(--color-main);
         color: #FFF;
-        height: 1200px;
-        padding-right: 4rem;
+        height: 900px;
+        padding-right: 1rem;
         background-image: url("../images/mouse.svg");
         background-repeat: no-repeat;
-        background-size: 170px;
+        background-size: 140px;
         background-attachment: scroll;
     }
-
-    
     .design-title {
         font-size: 3rem;
         font-weight: 800;
         color: var(--color-dark);
         line-height: 3rem;
+        padding-top: 100px;
         padding-bottom: 10px;
+        padding-left: 140px;
     }
     
     .design-text {
@@ -465,6 +467,7 @@ h3 {
         color: #FFF;
         line-height: 1.5rem;
         padding-bottom: 5px;
+        padding-left: 140px;
     }
 
     .promo-container {
@@ -474,22 +477,22 @@ h3 {
         align-items: flex-start;
         background-color: #43494E;
         color: #FFF;
-        height: 1200px;
-        padding-right: 2rem;
+        height: 1040px;
+        padding-right: 1rem;
         background-image: url("../images/ballpoint_pen.svg");
         background-repeat: no-repeat;
         background-size: 140px;
         background-attachment: scroll;
-    }
+}
 
     .promo-title {
         font-size: 3rem;
         font-weight: 700;
         color: var(--color-main);
         line-height: 3rem;
-        padding-left: 40px;
-        padding-top: 80px;
+        padding-top: 100px;
         padding-bottom: 10px;
+        padding-left: 140px;
     }
     
     .promo-text {
@@ -497,8 +500,8 @@ h3 {
         font-weight: 300;
         color: #FFF;
         line-height: 1.5rem;
-        padding-left: 40px;
         padding-bottom: 5px;
+        padding-left: 140px;
     }
 
 }
