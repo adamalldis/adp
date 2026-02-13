@@ -334,7 +334,7 @@ h3 {
 
 /* ================================== MEDIA QUERY =========== */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {  /* original was 900px */
 
     .container {
         display: flex;
