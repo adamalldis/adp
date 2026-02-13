@@ -444,7 +444,7 @@ h3 {
         align-items: flex-start;
         background-color: var(--color-main);
         color: #FFF;
-        height: 900px;
+        height: 940px;
         padding-right: 1rem;
         background-image: url("../images/mouse.svg");
         background-repeat: no-repeat;
@@ -457,7 +457,7 @@ h3 {
         color: var(--color-dark);
         line-height: 3rem;
         padding-top: 100px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
         padding-left: 140px;
     }
     
@@ -491,7 +491,7 @@ h3 {
         color: var(--color-main);
         line-height: 3rem;
         padding-top: 100px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
         padding-left: 140px;
     }
     
