@@ -262,10 +262,10 @@ h3 {
     color: #FFF;
     height: 100vh;
     padding-right: 4rem;
-        background-image: url("../images/ballpoint_pen.svg");
-        background-repeat: no-repeat; /* Prevents the image from tiling */
-        background-size: 170px;      /* Scales the image to cover the entire container */
-        background-attachment: scroll; /* Keeps the background fixed when scrolling */
+    background-image: url("../images/ballpoint_pen.svg");
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-size: 170px;      /* Scales the image to cover the entire container */
+    background-attachment: scroll; /* Keeps the background fixed when scrolling */
 }
 
 .promo-title {
@@ -436,18 +436,18 @@ h3 {
     }
 
     .design-container {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: left;
-    align-items: center;
-    background-color: var(--color-main);
-    color: #FFF;
-    height: 1200px;
-    padding-right: 4rem;
-    background-image: url("../images/mouse.svg");
-    background-repeat: no-repeat; /* Prevents the image from tiling */
-    background-size: 170px;      /* Scales the image to cover the entire container */
-    background-attachment: scroll; /* Keeps the background fixed when scrolling */
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: left;
+        align-items: center;
+        background-color: var(--color-main);
+        color: #FFF;
+        height: 1200px;
+        padding-right: 4rem;
+        background-image: url("../images/mouse.svg");
+        background-repeat: no-repeat; /* Prevents the image from tiling */
+        background-size: 170px;      /* Scales the image to cover the entire container */
+        background-attachment: scroll; /* Keeps the background fixed when scrolling */
     }
 
     
@@ -485,7 +485,7 @@ h3 {
     .promo-title {
         font-size: 3rem;
         font-weight: 700;
-        color: var(--color-main);
+        color: #0FF; /*var(--color-main);*/
         line-height: 3rem;
         padding-left: 40px;
         padding-top: 80px;
