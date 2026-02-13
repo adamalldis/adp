@@ -271,7 +271,7 @@ h3 {
 .promo-title {
     font-size: 4rem;
     font-weight: 600;
-    color: #FF0 /*var(--color-main);*/
+    color: *var(--color-main);
     line-height: 3rem;
     padding-bottom: 40px;
     padding-left: 170px;
@@ -333,7 +333,7 @@ h3 {
 }
 
 /* ================================== MEDIA QUERY =========== */
-/*
+
 @media only screen and (max-width: 900px) {  
 
     .container {
@@ -502,4 +502,3 @@ h3 {
     }
 
 }
-*/
