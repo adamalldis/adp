@@ -454,14 +454,14 @@ h3 {
     }
 
     .promo-container {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: left;
-    align-items: flex-start;
-    background-color: #43494E;
-    color: #FFF;
-    height: 1200px;
-    padding-right: 4rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: left;
+        align-items: flex-start;
+        background-color: #43494E;
+        color: #FFF;
+        height: 1200px;
+        padding-right: 4rem;
         background-image: url("../images/ballpoint_pen.svg");
         background-repeat: no-repeat; /* Prevents the image from tiling */
         background-size: 140px;      /* Scales the image to cover the entire container */
@@ -473,6 +473,7 @@ h3 {
         font-weight: 700;
         color: var(--color-main);
         line-height: 3rem;
+        padding-left: 40px;
         padding-top: 80px;
         padding-bottom: 10px;
     }
@@ -482,6 +483,7 @@ h3 {
         font-weight: 300;
         color: #FFF;
         line-height: 1.5rem;
+        padding-left: 40px;
         padding-bottom: 5px;
     }
 
