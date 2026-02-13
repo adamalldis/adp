@@ -208,10 +208,10 @@ h3 {
     color: #FFF;
     height: 100vh;
     padding-right: 4rem;
-        background-image: url("../images/mouse.svg");
-        background-repeat: no-repeat; /* Prevents the image from tiling */
-        background-size: 170px;      /* Scales the image to cover the entire container */
-        background-attachment: scroll; /* Keeps the background fixed when scrolling */
+    background-image: url("../images/mouse.svg");
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-size: 170px;      /* Scales the image to cover the entire container */
+    background-attachment: scroll; /* Keeps the background fixed when scrolling */
 }
 
 .design-title {
@@ -461,7 +461,7 @@ h3 {
         background-color: #43494E;
         color: #FFF;
         height: 1200px;
-        padding-right: 4rem;
+        padding-right: 2rem;
         background-image: url("../images/ballpoint_pen.svg");
         background-repeat: no-repeat; /* Prevents the image from tiling */
         background-size: 140px;      /* Scales the image to cover the entire container */
