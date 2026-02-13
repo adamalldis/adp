@@ -333,8 +333,8 @@ h3 {
 }
 
 /* ================================== MEDIA QUERY =========== */
-
-@media only screen and (max-width: 1600px) {  /* original was 900px */
+/*
+@media only screen and (max-width: 900px) {  
 
     .container {
         display: flex;
@@ -445,9 +445,9 @@ h3 {
         height: 1200px;
         padding-right: 4rem;
         background-image: url("../images/mouse.svg");
-        background-repeat: no-repeat; /* Prevents the image from tiling */
-        background-size: 170px;      /* Scales the image to cover the entire container */
-        background-attachment: scroll; /* Keeps the background fixed when scrolling */
+        background-repeat: no-repeat;
+        background-size: 170px;
+        background-attachment: scroll;
     }
 
     
@@ -477,15 +477,15 @@ h3 {
         height: 1200px;
         padding-right: 2rem;
         background-image: url("../images/ballpoint_pen.svg");
-        background-repeat: no-repeat; /* Prevents the image from tiling */
-        background-size: 140px;      /* Scales the image to cover the entire container */
-        background-attachment: scroll; /* Keeps the background fixed when scrolling */
+        background-repeat: no-repeat;
+        background-size: 140px;
+        background-attachment: scroll;
     }
 
     .promo-title {
         font-size: 3rem;
         font-weight: 700;
-        color: #0FF; /*var(--color-main);*/
+        color: var(--color-main);
         line-height: 3rem;
         padding-left: 40px;
         padding-top: 80px;
@@ -502,3 +502,4 @@ h3 {
     }
 
 }
+*/
